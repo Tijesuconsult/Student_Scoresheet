@@ -200,202 +200,202 @@ form.addEventListener('submit', (event)=>{
 }
 )
 
-const grade6 = document.getElementById ("grade6")
-const input6 = document.getElementById ("input6")
-form.addEventListener('submit', (event)=>{
-    event.preventDefault()
-    if(input6.value >= 100){
-        alert("Economics has to be between 0 and 100")
-    }
-    else if (input6.value > 74){
-        grade6.innerHTML = "A1"
-    }
-    else if (input6.value > 69){
-        grade6.innerHTML = "B2"
-    }
-    else if (input6.value > 64){
-        grade6.innerHTML = "B3"
-    }
-    else if (input6.value > 59){
-        grade6.innerHTML = "C4"
-    }
-    else if (input6.value > 54){
-        grade6.innerHTML = "C5"
-    }
-    else if (input6.value > 49){
-        grade6.innerHTML = "C6"
-    }
-    else if (input6.value > 44){
-        grade6.innerHTML = "D7"
-    }
-    else if (input6.value > 39){
-        grade6.innerHTML = "E8"
-    }
-    else if (input6.value > 0){
-        grade6.innerHTML = "F9"
-    }
-    else {
-        alert("Economics can't be empty")
-    }
-}
-)
-const grade7 = document.getElementById ("grade7")
-const input7 = document.getElementById ("input7")
-form.addEventListener('submit', (event)=>{
-    event.preventDefault()
-    if(input7.value >= 100){
-        alert("Government has to be between 0 and 100")
-    }
-    else if (input7.value > 74){
-        grade7.innerHTML = "A1"
-    }
-    else if (input7.value > 69){
-        grade7.innerHTML = "B2"
-    }
-    else if (input7.value > 64){
-        grade7.innerHTML = "B3"
-    }
-    else if (input7.value > 59){
-        grade7.innerHTML = "C4"
-    }
-    else if (input7.value > 54){
-        grade7.innerHTML = "C5"
-    }
-    else if (input7.value > 49){
-        grade7.innerHTML = "C6"
-    }
-    else if (input7.value > 44){
-        grade7.innerHTML = "D7"
-    }
-    else if (input7.value > 39){
-        grade7.innerHTML = "E8"
-    }
-    else if (input7.value > 0){
-        grade7.innerHTML = "F9"
-    }
-    else {
-        alert("Government can't be empty")
-    }
-}
-)
+// const grade6 = document.getElementById ("grade6")
+// const input6 = document.getElementById ("input6")
+// form.addEventListener('submit', (event)=>{
+//     event.preventDefault()
+//     if(input6.value >= 100){
+//         alert("Economics has to be between 0 and 100")
+//     }
+//     else if (input6.value > 74){
+//         grade6.innerHTML = "A1"
+//     }
+//     else if (input6.value > 69){
+//         grade6.innerHTML = "B2"
+//     }
+//     else if (input6.value > 64){
+//         grade6.innerHTML = "B3"
+//     }
+//     else if (input6.value > 59){
+//         grade6.innerHTML = "C4"
+//     }
+//     else if (input6.value > 54){
+//         grade6.innerHTML = "C5"
+//     }
+//     else if (input6.value > 49){
+//         grade6.innerHTML = "C6"
+//     }
+//     else if (input6.value > 44){
+//         grade6.innerHTML = "D7"
+//     }
+//     else if (input6.value > 39){
+//         grade6.innerHTML = "E8"
+//     }
+//     else if (input6.value > 0){
+//         grade6.innerHTML = "F9"
+//     }
+//     else {
+//         alert("Economics can't be empty")
+//     }
+// }
+// )
+// const grade7 = document.getElementById ("grade7")
+// const input7 = document.getElementById ("input7")
+// form.addEventListener('submit', (event)=>{
+//     event.preventDefault()
+//     if(input7.value >= 100){
+//         alert("Government has to be between 0 and 100")
+//     }
+//     else if (input7.value > 74){
+//         grade7.innerHTML = "A1"
+//     }
+//     else if (input7.value > 69){
+//         grade7.innerHTML = "B2"
+//     }
+//     else if (input7.value > 64){
+//         grade7.innerHTML = "B3"
+//     }
+//     else if (input7.value > 59){
+//         grade7.innerHTML = "C4"
+//     }
+//     else if (input7.value > 54){
+//         grade7.innerHTML = "C5"
+//     }
+//     else if (input7.value > 49){
+//         grade7.innerHTML = "C6"
+//     }
+//     else if (input7.value > 44){
+//         grade7.innerHTML = "D7"
+//     }
+//     else if (input7.value > 39){
+//         grade7.innerHTML = "E8"
+//     }
+//     else if (input7.value > 0){
+//         grade7.innerHTML = "F9"
+//     }
+//     else {
+//         alert("Government can't be empty")
+//     }
+// }
+// )
 
-const grade8 = document.getElementById ("grade8")
-const input8 = document.getElementById ("input8")
-form.addEventListener('submit', (event)=>{
-    event.preventDefault()
-    if(input8.value >= 100){
-        alert("Civ-Edu has to be between 0 and 100")
-    }
-    else if (input8.value > 74){
-        grade8.innerHTML = "A1"
-    }
-    else if (input8.value > 69){
-        grade8.innerHTML = "B2"
-    }
-    else if (input8.value > 64){
-        grade8.innerHTML = "B3"
-    }
-    else if (input8.value > 59){
-        grade8.innerHTML = "C4"
-    }
-    else if (input8.value > 54){
-        grade8.innerHTML = "C5"
-    }
-    else if (input8.value > 49){
-        grade8.innerHTML = "C6"
-    }
-    else if (input8.value > 44){
-        grade8.innerHTML = "D7"
-    }
-    else if (input8.value > 39){
-        grade8.innerHTML = "E8"
-    }
-    else if (input8.value > 0){
-        grade8.innerHTML = "F9"
-    }
-    else {
-        alert("Civ-Edu can't be empty")
-    }
-}
-)
+// const grade8 = document.getElementById ("grade8")
+// const input8 = document.getElementById ("input8")
+// form.addEventListener('submit', (event)=>{
+//     event.preventDefault()
+//     if(input8.value >= 100){
+//         alert("Civ-Edu has to be between 0 and 100")
+//     }
+//     else if (input8.value > 74){
+//         grade8.innerHTML = "A1"
+//     }
+//     else if (input8.value > 69){
+//         grade8.innerHTML = "B2"
+//     }
+//     else if (input8.value > 64){
+//         grade8.innerHTML = "B3"
+//     }
+//     else if (input8.value > 59){
+//         grade8.innerHTML = "C4"
+//     }
+//     else if (input8.value > 54){
+//         grade8.innerHTML = "C5"
+//     }
+//     else if (input8.value > 49){
+//         grade8.innerHTML = "C6"
+//     }
+//     else if (input8.value > 44){
+//         grade8.innerHTML = "D7"
+//     }
+//     else if (input8.value > 39){
+//         grade8.innerHTML = "E8"
+//     }
+//     else if (input8.value > 0){
+//         grade8.innerHTML = "F9"
+//     }
+//     else {
+//         alert("Civ-Edu can't be empty")
+//     }
+// }
+// )
 
-const grade9 = document.getElementById ("grade9")
-const input9 = document.getElementById ("input9")
-form.addEventListener('submit', (event)=>{
-    event.preventDefault()
-    if(input9.value >= 100){
-        alert("Agric has to be between 0 and 100")
-    }
-    else if (input9.value > 74){
-        grade9.innerHTML = "A1"
-    }
-    else if (input9.value > 69){
-        grade9.innerHTML = "B2"
-    }
-    else if (input9.value > 64){
-        grade9.innerHTML = "B3"
-    }
-    else if (input9.value > 59){
-        grade9.innerHTML = "C4"
-    }
-    else if (input9.value > 54){
-        grade9.innerHTML = "C5"
-    }
-    else if (input9.value > 49){
-        grade9.innerHTML = "C6"
-    }
-    else if (input9.value > 44){
-        grade9.innerHTML = "D7"
-    }
-    else if (input9.value > 39){
-        grade9.innerHTML = "E8"
-    }
-    else if (input9.value > 0){
-        grade9.innerHTML = "F9"
-    }
-    else {
-        alert("Agric can't be empty")
-    }
-}
-)
+// const grade9 = document.getElementById ("grade9")
+// const input9 = document.getElementById ("input9")
+// form.addEventListener('submit', (event)=>{
+//     event.preventDefault()
+//     if(input9.value >= 100){
+//         alert("Agric has to be between 0 and 100")
+//     }
+//     else if (input9.value > 74){
+//         grade9.innerHTML = "A1"
+//     }
+//     else if (input9.value > 69){
+//         grade9.innerHTML = "B2"
+//     }
+//     else if (input9.value > 64){
+//         grade9.innerHTML = "B3"
+//     }
+//     else if (input9.value > 59){
+//         grade9.innerHTML = "C4"
+//     }
+//     else if (input9.value > 54){
+//         grade9.innerHTML = "C5"
+//     }
+//     else if (input9.value > 49){
+//         grade9.innerHTML = "C6"
+//     }
+//     else if (input9.value > 44){
+//         grade9.innerHTML = "D7"
+//     }
+//     else if (input9.value > 39){
+//         grade9.innerHTML = "E8"
+//     }
+//     else if (input9.value > 0){
+//         grade9.innerHTML = "F9"
+//     }
+//     else {
+//         alert("Agric can't be empty")
+//     }
+// }
+// )
 
-const grade10 = document.getElementById ("grade10")
-const input10 = document.getElementById ("input10")
-form.addEventListener('submit', (event)=>{
-    event.preventDefault()
-    if(input10.value >= 100){
-        alert("Yoruba has to be between 0 and 100")
-    }
-    else if (input10.value > 74){
-        grade10.innerHTML = "A1"
-    }
-    else if (input10.value > 69){
-        grade10.innerHTML = "B2"
-    }
-    else if (input10.value > 64){
-        grade10.innerHTML = "B3"
-    }
-    else if (input10.value > 59){
-        grade10.innerHTML = "C4"
-    }
-    else if (input10.value > 54){
-        grade10.innerHTML = "C5"
-    }
-    else if (input10.value > 49){
-        grade10.innerHTML = "C6"
-    }
-    else if (input10.value > 44){
-        grade10.innerHTML = "D7"
-    }
-    else if (input10.value > 39){
-        grade10.innerHTML = "E8"
-    }
-    else if (input10.value > 0){
-        grade10.innerHTML = "F9"
-    }
-    else {
-        alert("Yoruba can't be empty")
-    }
-}
-)
+// const grade10 = document.getElementById ("grade10")
+// const input10 = document.getElementById ("input10")
+// form.addEventListener('submit', (event)=>{
+//     event.preventDefault()
+//     if(input10.value >= 100){
+//         alert("Yoruba has to be between 0 and 100")
+//     }
+//     else if (input10.value > 74){
+//         grade10.innerHTML = "A1"
+//     }
+//     else if (input10.value > 69){
+//         grade10.innerHTML = "B2"
+//     }
+//     else if (input10.value > 64){
+//         grade10.innerHTML = "B3"
+//     }
+//     else if (input10.value > 59){
+//         grade10.innerHTML = "C4"
+//     }
+//     else if (input10.value > 54){
+//         grade10.innerHTML = "C5"
+//     }
+//     else if (input10.value > 49){
+//         grade10.innerHTML = "C6"
+//     }
+//     else if (input10.value > 44){
+//         grade10.innerHTML = "D7"
+//     }
+//     else if (input10.value > 39){
+//         grade10.innerHTML = "E8"
+//     }
+//     else if (input10.value > 0){
+//         grade10.innerHTML = "F9"
+//     }
+//     else {
+//         alert("Yoruba can't be empty")
+//     }
+// }
+// )
 
