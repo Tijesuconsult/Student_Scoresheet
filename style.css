@@ -10,7 +10,7 @@ body{
     background-size: cover;
 }
 #form{
-   background-color: rgba(0, 255, 255, 0.781);
+   background-color: rgba(55, 59, 59, 0.781);
    width: 300px;
    margin-left: auto;
    margin-right: auto;
@@ -20,12 +20,13 @@ body{
    padding-bottom: 20px;
    border-top-left-radius: 50px;
    border-bottom-right-radius: 50px;
-   border: 2px solid black;
+   /* border: 2px solid white; */
 }
 h2{
     /* text-align: center; */
     text-align: center;
-    color: blue;
+    color: white;
+    margin-bottom: 30PX;
 }
 input{
 width: 100px;
@@ -53,6 +54,7 @@ button{
 }
 label{
     font-weight: 700;
+    color: white;
 }
 span{
     border: 1px solid gray;
@@ -60,4 +62,9 @@ span{
     background-color: white;
     color: blue;
     padding: 4px 8px;
+}
+strong{
+    margin-left: 45px;
+    color: white;
+    line-height: 2.0;
 }
